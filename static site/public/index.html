@@ -1,0 +1,26 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<script src="elastic-apm-opentracing.umd.min.js" crossorigin></script>
+    <script>
+        elasticApm.init({
+        serviceName: 'Static',
+        serverUrl: 'http://localhost:8200/',
+        active: true,
+        serviceVersion: '1.0'
+      })
+    </script>
+</head>
+<body>
+
+</body>
+</html> 
+<script type="text/javascript">
+  var variableNotDefined = undefined;
+  //force error to log in apm
+  variableNotDefined.length;
+</script>
