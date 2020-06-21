@@ -1,4 +1,4 @@
-# Examples of integration with APM Server of Elastic
+# Examples of ElasticSearch APM Integration
 
 ## VueJS
 
